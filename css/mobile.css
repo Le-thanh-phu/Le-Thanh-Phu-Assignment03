@@ -1,0 +1,282 @@
+@media screen and (max-width: 500px) {
+    * {
+        margin: 0px;
+    }
+
+    .bg-grey {
+        background: #f7f7f7;
+    }
+
+    /*Chỉnh style cho tên và nghề nghiệp trong thanh nav-bar*/
+    .the-second-name {
+        display: none;
+    }
+
+    /*Chỉnh style cho thanh nav-bar*/
+    .nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*Chỉnh style cho phần banner*/
+    .banner {
+        background-image: url(banner.jpg);
+        height: 600px;
+        width: 100%;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    /*Căn chỉnh hai phần mục tiêu và thông tin cá nhân*/
+    .target-information {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*Canh chỉnh phần mục tiêu*/
+    #target {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        background-color: #C0C0C0;
+        padding-top: 80px;
+        padding-left: 20px;
+        row-gap: 20px;
+        line-height: 1.7;
+        min-width: 350px;
+    }
+
+    /*Chỉnh style cho phần thông tin cá nhân*/
+    #personal-info {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        background-color: #A9A9A9;
+        padding-top: 80px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        row-gap: 20px;
+        line-height: 1.7;
+        min-width: 350px;
+    }
+
+    /*Chỉnh màu và màu cho tất cả icon nhỏ blue*/
+    .color-icon-blue {
+        color: blue;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /*Canh chỉnh vị trí tương quan trong phần thông tin nghề nghiệp bao gồm 6 block*/
+    .container-big {
+        display: grid;
+        grid-template-columns: 350px;
+    }
+
+    /*Canh chỉnh thông tin của từng phần trong phần thông tin nghề nghiệp*/
+    .container-small {
+        border: gray 2px solid;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 40px;
+        line-height: 1.7;
+    }
+
+    /*Chỉnh style cho phần banner*/
+    .banner {
+        background-image: url(banner.jpg);
+        height: 600px;
+        width: 100%;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    /*Ẩn ảnh đại diện*/
+    .avatar1 {
+        display: none;
+    }
+
+    /*Chỉnh style phần cấp bậc của kỹ năng bao gồm 3 bậc*/
+    .skill-level {
+        display: flex;
+        column-gap: 15px;
+    }
+
+    /*the grid style for the cert and award part */
+    .cert-award {
+        display: grid;
+        grid-template-areas:
+            "aa"
+            "bb"
+            "cc"
+            "dd";
+        justify-content: center;
+        gap: 20px;
+        background-color: #DDDDDD;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    /*one of component in cert and award part*/
+    .cert-award1 {
+        grid-area: aa;
+    }
+
+    /*one of component in cert and award part*/
+    .cert-award2 {
+        grid-area: bb;
+    }
+
+    /*one of component in cert and award part*/
+    .cert-award3 {
+        grid-area: cc;
+    }
+
+    /*one of component in cert and award part*/
+    .cert-award4 {
+        grid-area: dd;
+    }
+
+    /*The flex style for each project*/
+    .project-information {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.7;
+        border: #343a40 solid 1px;
+        padding: 20px 10px;
+    }
+
+    /*The grid style for all projects*/
+    .all-project-information {
+        display: grid;
+        grid-template-columns: 350px;
+        justify-content: center;
+        gap: 20px;
+        padding-bottom: 40px;
+    }
+
+    /*Canh chỉnh kích thước vị trí cho các icon lớn thuộc phần thông tin nghề nghiệp */
+    .component-main-information-icon {
+        font-size: 40px;
+        position: relative;
+        top: -15px;
+    }
+
+    /*Chỉnh bố cục cho icon thuộc phần sở thích*/
+    .favourite-icon-align {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    /*Chỉnh kích thước, màu sắc cho icon thuộc phần sở thích*/
+    .favourite-icon-size {
+        font-size: 40px;
+        color: blue;
+    }
+
+    /*Chỉnh vị trí giữa icon và nội dung kèm theo thuộc phần sở thích*/
+    .content-favourite {
+        display: inline-block;
+        justify-self: center;
+        position: relative;
+        top: 20px;
+    }
+
+    /*Canh chỉnh kích thước vị trí cho các icon lớn thuộc phần thông tin nghề nghiệp */
+    .component-main-information-icon {
+        font-size: 40px;
+        position: relative;
+        top: -15px;
+    }
+
+    /* canh chỉnh vị trí giữa 6 đầu mục lớn và icon lớn của nó thuộc phần thông tin nghề nghiệp */
+    .component-main-information {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 30px;
+    }
+
+    /*Chỉnh size và vị trí cho icon của phần footer*/
+    .footer-icon {
+        font-size: 30px;
+        position: relative;
+        top: -7px;
+    }
+
+    /*Chỉnh vị trí giữa icon và chữ trong phần footer*/
+    .footer {
+        display: flex;
+        gap: 5px;
+    }
+
+    /*chỉnh bố cục của cả phần footer*/
+    .all-footer {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: #DDDDDD;
+    }
+
+    /*Ẩn chữ trong phần footer*/
+    .mobile {
+        display: none
+    }
+
+    /*Chỉnh style cho các thẻ label*/
+    label {
+        background-color: blue;
+        color: white;
+        border-radius: 35%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 12px;
+    }
+
+    /*Chỉnh style cho icon phần thông tin cá nhân*/
+    .personal-info-icon {
+        display: flex;
+        flex-direction: row;
+        column-gap: 10px;
+        padding-top: 20px;
+    }
+
+    /*Chỉnh style cho icon phần dự án*/
+    .project-information-icon {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        gap: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .span1{
+        width: 30px;
+        height: 3px;
+        background-color: blue;
+    }
+
+    .span2{
+        width: 30px;
+        height: 3px;
+        background-color: gray;
+    }
+
+}

@@ -1,0 +1,315 @@
+@media screen and (min-width: 768px) {
+    * {
+        margin: 0px;
+    }
+
+    .bg-grey {
+        background: #f7f7f7;
+    }
+
+    section>.container {
+        width: 1170px;
+        margin: auto;
+        display: block;
+        padding: 30px 50px;
+    }
+
+    * {
+        box-sizing: border-box;
+    }
+
+    /*kiểu form cho phần body*/
+    body {
+        font-family: "inter", sans-serif;
+        color: #343a40;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    /*Chỉnh margin cho h1*/
+    h1 {
+        margin-bottom: 48px;
+    }
+
+    /*Chỉnh style cho phần banner*/
+    .banner {
+        background-image: url(banner.jpg);
+        width: 100%;
+        height: 600px;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    /*Chỉnh style cho thanh nav-bar*/
+    .nav {
+        justify-content: center;
+        align-items: center;
+        padding: 20px 0;
+    }
+
+    /*Chỉnh style cho tên và nghề nghiệp nằm trong thanh nav-bar*/
+    .the-second-name {
+        display: inline-block;
+        justify-content: center;
+        align-items: center;
+        line-height: 0.1;
+        position: relative;
+        top: 10px;
+    }
+
+    /*Căn chỉnh vị trí giữa hai phần nhỏ mục tiêu và thông tin cá nhân*/
+    .target-information {
+        display: flex;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    /*Canh chỉnh phần mục tiêu*/
+    #target {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        background-color: #C0C0C0;
+        padding-top: 80px;
+        padding-left: 20px;
+        row-gap: 20px;
+        line-height: 1.7;
+    }
+
+    /*Canh chỉnh phần thông tin cá nhân*/
+    #personal-info {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        background-color: #A9A9A9;
+        padding-top: 80px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        row-gap: 20px;
+        line-height: 1.7;
+    }
+
+    /*Chỉnh style cho các thẻ lable sử dụng với mục đích highlight*/
+    label {
+        background-color: blue;
+        color: white;
+        border-radius: 35%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 12px;
+    }
+
+    /*Canh chỉnh style cho icon của phần thông tin cá nhân*/
+    .personal-info-icon {
+        display: flex;
+        column-gap: 10px;
+        padding-top: 20px;
+    }
+
+    /*Chỉnh màu blue cho các icon sử dụng màu này*/
+    .color-icon-blue {
+        color: blue;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    /* canh chỉnh vị trí giữa 6 đầu mục lớn và icon lớn của nó thuộc phần thông tin nghề nghiệp */
+    .component-main-information {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 30px;
+    }
+
+    /*Canh chỉnh kích thước vị trí cho các icon lớn thuộc phần thông tin nghề nghiệp */
+    .component-main-information-icon {
+        font-size: 40px;
+        position: relative;
+        top: -15px;
+    }
+
+    /*Chỉnh style phần cấp bậc của kỹ năng bao gồm 3 bậc*/
+    .skill-level {
+        display: flex;
+        column-gap: 15px;
+    }
+
+    /*Canh chỉnh vị trí tương quan trong phần thông tin nghề nghiệp bao gồm 6 block*/
+    .container-big {
+        display: grid;
+        grid-template-columns: minmax(250px, 350px) minmax(250px, 350px) minmax(250px, 350px);
+        justify-content: center;
+        gap: 20px;
+        padding-bottom: 40px;
+    }
+
+    /*Canh chỉnh thông tin của từng phần trong phần thông tin nghề nghiệp*/
+    .container-small {
+        border: gray 2px solid;
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        line-height: 1.7;
+    }
+
+    /*canh chỉnh bố cục cho từng phần chứng chỉ giải thưởng*/
+    .small-certification-award {
+        display: flex;
+        column-gap: 10px;
+    }
+
+    /*Canh chỉnh bố cục từng phần trong phần thông tin dự án*/
+    .project-information {
+        display: flex;
+        flex-direction: column;
+        line-height: 1.7;
+        border: #343a40 solid 1px;
+        padding: 20px 10px;
+    }
+
+    /*Canh chỉnh vị trí tương quan giữa tất cả các dự án*/
+    .all-project-information {
+        display: grid;
+        grid-template-columns: minmax(250px, 1fr) minmax(250px, 1fr) minmax(250px, 1fr);
+        justify-content: center;
+        gap: 20px;
+        padding-bottom: 40px;
+    }
+
+    /*Chỉnh style cho icon phần dự án*/
+    .project-information-icon {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        gap: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    /*Đưa các nội dung trong phần dự án lên trên*/
+    .vertical-shell {
+        vertical-align: top;
+    }
+
+    /*Chỉnh style cho phần table*/
+    table,
+    td {
+        border: #343a40 solid 1px;
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+    }
+
+    /*Chỉnh style cho phần footer*/
+    .all-footer {
+        display: flex;
+        gap: 20px;
+        justify-content: center;
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        background-color: #DDDDDD;
+    }
+
+    /*Chỉnh vị trí tương quan giữa nội dung và icon trong phần footer*/
+    .footer {
+        display: flex;
+        gap: 5px;
+    }
+
+    .footer-icon {
+        font-size: 30px;
+        position: relative;
+        top: -7px;
+    }
+
+    /*Chỉnh bố cục cho phần chứng chỉ giải thưởng*/
+    .cert-award {
+        display: grid;
+        grid-template-areas:
+            "aa aa aa aa"
+            "bb bb cc cc"
+            "dd dd ee ee";
+        justify-content: center;
+        gap: 20px;
+        background-color: #DDDDDD;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    /*quy định bố cục cho phần 1 trong phần chứng chỉ-giải thưởng*/
+    .cert-award1 {
+        grid-area: aa;
+    }
+
+    /*quy định bố cục cho phần 2 trong phần chứng chỉ-giải thưởng*/
+    .cert-award2 {
+        grid-area: bb;
+    }
+
+    /*quy định bố cục cho phần 3 trong phần chứng chỉ-giải thưởng*/
+    .cert-award3 {
+        grid-area: cc;
+    }
+
+    /*quy định bố cục cho phần 4 trong phần chứng chỉ-giải thưởng*/
+    .cert-award4 {
+        grid-area: dd;
+    }
+
+    /*Chỉnh kích thước, màu sắc cho icon thuộc phần sở thích*/
+    .favourite-icon-size {
+        font-size: 40px;
+        color: blue;
+    }
+
+    /*Chỉnh bố cục cho icon thuộc phần sở thích*/
+    .favourite-icon-align {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    /*Chỉnh vị trí giữa icon và nội dung kèm theo thuộc phần sở thích*/
+    .content-favourite {
+        display: inline-block;
+        justify-self: center;
+        position: relative;
+        top: 20px;
+    }
+
+    /*Canh chỉnh vị trí của ảnh đại diện*/
+    .avatar {
+        position: relative;
+        top: -3185px;
+        left: 650px;
+    }
+
+    /*Ẩn ảnh đại diện*/
+    .avatar1 {
+        display: none;
+        border-radius: 50%;
+        border: 10px solid #fff;
+        outline-offset: 1.5px;
+        outline: 2px solid #343a40;
+    }
+
+    .span1{
+        width: 30px;
+        height: 3px;
+        background-color: blue;
+    }
+
+    .span2{
+        width: 30px;
+        height: 3px;
+        background-color: gray;
+    }
+
+}
